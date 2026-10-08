@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
+
+# MovieLens dataset
+data/ml-1m/
+data/*.dat
+
+# Generated datasets
+data/train.csv
+data/test.csv
+data/movies.csv
+
+# Trained models
+results/*.pkl
+
+# Generated evaluation output
+results/*.csv
+
+# Jupyter
+.ipynb_checkpoints/
